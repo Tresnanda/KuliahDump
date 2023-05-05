@@ -10,6 +10,7 @@ int matrix[20][20];
 int euler[20][20];
 int semi[20][20];
 int vis[20];
+int ko[20];
 int ver_terhubung(int vertex1, int vertex2){
     return matrix[vertex1][vertex2] == 1;
     }
@@ -22,103 +23,25 @@ void terhubung(int v, int n){
     }
 }
 
-/**void jalan_euler(int v, int n){
-    printf("%d, ", v);
-    for(int i=1; i<=n; i++){
-        if(euler[v][i] == 1){
-            euler[v][i] = euler[i][v] = 0;
-            jalan_euler(i, n);
-            
+void jeuler(int a, int n){
+    for(int i = 1; i<=n; i++){
+        if(euler[i][a] == 1){
+            euler[i][a] = euler[a][i] = 0;
+            jeuler(i, n);
         }
     }
-}
-/**void jalan_euler(int v, int n){
-    //printf("%d, ", v);
-    for(int i=1; i<=n; i++){
-        for(int k=i+1; k<=n; k++){
-            if()
-        }
-    }
-}**/
-
-void euler2(int n, int start) {
-    int stack[20];
-    int top = 0;
-    int visited[20];
-    int count = 0;
-    stack[top] = start;
-    while (top >= 0) {
-        int v = stack[top];
-        int found = 0;
-        for (int i = 1; i <= n; i++) {
-            if (euler[v][i]) {
-                stack[++top] = i;
-                euler[v][i] = euler[i][v] = 0;
-                found = 1;
-                break;
-            }
-        }
-        if (!found) {
-            visited[count++] = v;
-            top--;
-        }
-    }
-    for (int i = count - 1; i >= 0; i--) {
-        printf("%d ", visited[i]);
-    }
+    printf("%d ", a);
 }
 
-void jalan_ha(int a){
-    int queue[a], head = 0, tail=0;
-    int ha[20];
-    for(int i=1; i<=a; i++){
-        ha[i] = 0;
-    }
-    
-    queue[tail] = 1;
-    tail++;
-    while(head!=tail){
-        int v = queue[head];
-        head++;
-        ha[v] = 1;
-        for(int i=1; i<=a; i++){
-            if(matrix[v][i] == 1 && ha[i] == 0){
-                queue[tail] = i;
-                tail++;
-                break;
-            }
+void jhal(int a ,int n){
+    ko[a] = 1;
+    for(int i=1; i<=n; i++){
+        if(matrix[a][i] == 1 && ko[i] == 0){
+            jhal(i, n);
+            break;
         }
     }
-
-    if(matrix[queue[a-1]][queue[0]] == 1){
-        for(int i=1; i<=a; i++){
-        if(ha[i] == 0){
-            printf("Graf bukan hamilton2! \n");
-            return;
-        }
-      }
-    printf("Graf adalah hamilton! \n");
-    printf("Jalan hamilton: \n");
-    for(int i=0; i<a; i++){
-        printf("%d ", queue[i]);
-      }
-      printf("%d ", queue[0]);
-    }
-    else{
-        for(int i=1; i<=a; i++){
-        if(ha[i] == 0){
-            printf("Graf bukan hamilton2! \n");
-            return;
-        }
-      }
-      printf("Graf adalah semi-hamilton! \n");
-      printf("Jalan hamilton: \n");
-      for(int i=0; i<a; i++){
-        printf("%d ", queue[i]);
-      }
-        
-    }
-      
+    printf("%d ", a);
 }
 
 int cek_terhubung(int n){
@@ -194,6 +117,7 @@ void pewarnaan(int n) {
 
 void cek_euler(int n){
     int odd = 0;
+    int o;
     if(cek_terhubung(n) == 0){
         printf("Graf bukanlah graf euler1!\n");
         return;
@@ -201,12 +125,12 @@ void cek_euler(int n){
     for(int i=1; i<=n; i++){
         if(deg[i]%2 == 1){
             odd++;
+            o = i;
         }
     }
     if(odd == 2){
         printf("Graf adalah semi-euler!\n");
-        //printf("Jalan euler's path: \n");
-        //semi_euler(n, 1);
+        jeuler(o, n);
         printf("\n");
         return;
     }
@@ -215,8 +139,7 @@ void cek_euler(int n){
         return;
     }
     printf("Jalan yang dilalui pengecekan Euler's Cycle: \n");
-    euler2(n, 1);
-    //jalan_euler(1, n);
+    jeuler(1, n);
     printf("\n");
     for(int i=1; i<=n; i++){
         for(int j=1; j<=n; j++){
@@ -227,6 +150,74 @@ void cek_euler(int n){
         }
     }
     printf("Graf adalah graf euler!\n");
+}
+
+/**void jalan_ha(int n){
+    if(cek_terhubung(n) == 0){
+        printf("Graf bukan hamilton1!\n");
+    }
+    else{
+        
+    }
+}**/
+
+void jalan_ha(int a){
+    int terurut[a];
+    urut(a, terurut);
+    int queue[a], head = 0, tail=0;
+    int ha[20];
+    for(int i=1; i<=a; i++){
+        ha[i] = 0;
+    }
+    
+    queue[tail] = terurut[a-1];
+    tail++;
+    while(head!=tail){
+        int v = queue[head];
+        head++;
+        ha[v] = 1;
+        for(int i=1; i<=a; i++){
+            if(matrix[v][i] == 1 && ha[i] == 0){
+                queue[tail] = i;
+                tail++;
+                break;
+            }
+        }
+    }
+    for(int i=0; i<tail; i++){
+        printf("%d ", queue[i]);
+    }
+    printf("\n");
+
+    if(matrix[queue[0]][queue[tail]] == 1){
+        for(int i=1; i<=a; i++){
+        if(ha[i] == 0){
+            printf("Graf bukan hamilton2! \n");
+            return;
+        }
+      }
+    printf("Graf adalah hamilton! \n");
+    printf("Jalan hamilton: \n");
+    for(int i=0; i<a; i++){
+        printf("%d ", queue[i]);
+      }
+      printf("%d ", queue[0]);
+    }
+    else{
+        for(int i=1; i<=a; i++){
+        if(ha[i] == 0){
+            printf("Graf bukan hamilton2! \n");
+            return;
+        }
+      }
+      printf("Graf adalah semi-hamilton! \n");
+      printf("Jalan hamilton: \n");
+      for(int i=0; i<a; i++){
+        printf("%d ", queue[i]);
+      }
+        
+    }
+      
 }
 
 int main()
