@@ -70,6 +70,32 @@ void hapus(struct List* list, int data) {
     printf("Data berhasil dihapus!");
 }
 
+void reverse(struct List* list){
+    if(list->head == NULL){
+        printf("List kosong!");
+        return;
+    }
+    if(list->head->next == NULL){
+        printf("List berhasil dibalikkan!");
+        return;
+    }
+    
+    struct Node* temp = NULL;
+    struct Node* curr = list->head;
+    
+    while(curr!=NULL){
+        temp = curr->prev;
+        curr->prev = curr->next;
+        curr->next = temp;
+        curr = curr->prev;
+    }
+    
+    if(temp != NULL){
+        list->head = temp->prev;
+    }
+    printf("List berhasil dibalikkan!");
+}
+
 void display(struct List* list) {
     struct Node* curr = list->head;
     if (list->head == NULL) {
@@ -118,6 +144,7 @@ int main() {
         printf("\n2. Delete data");
         printf("\n3. Display list");
         printf("\n4. Urut data");
+        printf("\n5. Reverse");
         printf("\n0. Exit\n");
         scanf("%d", &choice);
         switch (choice) {
@@ -151,6 +178,13 @@ int main() {
             system("clear");
             urut(&list);
             printf("Data berhasil diurutkan secara ascending!\n");
+            printf("\nTekan Enter untuk keluar ");
+            getchar();
+            fgets(tumbal, 3, stdin);
+            break;
+        case 5:
+            system("clear");
+            reverse(&list);
             printf("\nTekan Enter untuk keluar ");
             getchar();
             fgets(tumbal, 3, stdin);
