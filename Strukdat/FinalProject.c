@@ -289,24 +289,46 @@ struct NodeTree* deleteNode(struct NodeTree* root, char* nama) {
         struct Node* temp = root->list;
         root->list = root->list->next;
         free(temp);
+
+        //cek list kosong ato tidak
+        if (root->list == NULL) {
+            //gaada sisa, hapus
+            struct NodeTree* tempNode = root;
+
+            //list gapunya children
+            if (root->left == NULL && root->right == NULL) {
+                root = NULL;
+            }
+            //punya child kanan
+            else if (root->left == NULL) {
+                root = root->right;
+            }
+            //punya child kiri
+            else if (root->right == NULL) {
+                root = root->left;
+            }
+            //punya 2 child
+            else {
+                struct NodeTree* successor = root->right;
+                while (successor->left != NULL) {
+                    successor = successor->left;
+                }
+                successor->left = root->left;
+                root = root->right;
+            }
+
+            free(tempNode);
+        }
+
         return root;
     }
 
-    struct Node* curr = root->list;
-    struct Node* prev = NULL;
-
-    while (curr != NULL) {
-        if (strcmp(curr->item.nama, nama) == 0) {
-            prev->next = curr->next;
-            free(curr);
-            break;
-        }
-        prev = curr;
-        curr = curr->next;
-    }
+    root->left = deleteNode(root->left, nama);
+    root->right = deleteNode(root->right, nama);
 
     return root;
 }
+
 
 void hapusItem(struct Table* table, struct NodeTree** root, char* nama) {
     int index = hashindex(nama);
@@ -326,7 +348,7 @@ void hapusItem(struct Table* table, struct NodeTree** root, char* nama) {
         prev = curr;
         curr = curr->next;
     }
-
+    
     *root = deleteNode(*root, nama);
 }
 
@@ -919,6 +941,7 @@ int main()
     }while(choice4 != 0);
     return 0;
 }
+
 
 
 
