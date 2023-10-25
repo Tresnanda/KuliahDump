@@ -341,13 +341,13 @@ def automata(nfa, string):
     if nfa.current_state in {37, 38}:
       #if letter == 'z':
         #nfa.current_state = 39
-      if letter == '0':
+      if letter == 'V':
         nfa.current_state = 40
         order_list.append(current_order)
         #current_order.reset()
 
     if nfa.current_state == 40:
-      if letter == 'V':
+      if letter == 'U':
         nfa.current_state = 41
       if letter == 'Z':
         nfa.current_state = 39
@@ -377,10 +377,10 @@ def automata(nfa, string):
     if nfa.current_state in {42, 43, 44, 45}:
       if letter == 'x':
         nfa.current_state = 47
-        current_minuman.setDingin(1)
+        current_minuman.setDingin(0)
       if letter == 'y':
         nfa.current_state = 48
-        current_minuman.setDingin(0)
+        current_minuman.setDingin(1)
 
     if nfa.current_state in {47, 48}:
       if letter == 'z':
