@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-21T09:21:49.718Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Aj0bn-wf56ztcPC_dN8W" version="22.0.5" type="device">
+<mxfile host="app.diagrams.net" modified="2023-10-25T05:30:57.765Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Wk6SQBj9oh3_6iYb1KAx" version="22.0.7" type="device">
   <diagram name="Page-1" id="TPeHE0YNXwFDdQlTFkeY">
-    <mxGraphModel dx="4050" dy="3543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4500" dy="3375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,9 +59,6 @@
           <mxGeometry x="-0.0891" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="pl_Ivmxs4CeN9dgg81H_-13" value="Input :&amp;nbsp;&lt;br&gt;a = Nasi Goreng&lt;br&gt;b = Mie&amp;nbsp;&lt;br&gt;c = Daging&lt;br&gt;d = Fuyung Hai&lt;br&gt;e = Sayur&lt;br&gt;&lt;br&gt;f =&amp;nbsp; Daging Ayam&lt;br&gt;g = Daging Sapi&amp;nbsp;&lt;br&gt;h = Daging Cumi&lt;br&gt;i = Daging Udang&lt;br&gt;&lt;br&gt;k = Toping Telur&lt;br&gt;l = Toping Ayam&lt;br&gt;m = Toping Udang&amp;nbsp;&lt;br&gt;n = Toping Sapi&lt;br&gt;&lt;br&gt;A= mie kuah&amp;nbsp;&lt;br&gt;B = mie goreng&amp;nbsp;&lt;br&gt;C = Kwetiau&lt;br&gt;D = Bihun&lt;br&gt;E = I Fu Mie&lt;br&gt;&lt;br&gt;F = Ayam Mentega&lt;br&gt;G = Ayam lada hitam&lt;br&gt;H = Chicken Katsu&amp;nbsp;&lt;br&gt;&lt;br&gt;I = Sapi Mentega&lt;br&gt;J = Sapi Lada Hitam&lt;br&gt;K = Sapi Cah Paprika&lt;br&gt;&lt;br&gt;L = Cumi Goreng Tepung&lt;br&gt;M = Cumi Mentega&lt;br&gt;N = Cumi Asam Manis&lt;br&gt;&lt;br&gt;O = Udang Goreng Tepung&lt;br&gt;P = Udang Mentega&lt;br&gt;Q = Udang Asam Manis&lt;br&gt;&lt;br&gt;R =&amp;nbsp; Sayur Hijau&lt;br&gt;S = Capcay&lt;br&gt;T =&amp;nbsp; Buncis&lt;br&gt;U = Kangkung&lt;br&gt;&lt;br&gt;y = Pedas&amp;nbsp;&lt;br&gt;z = Tidak Pedas&lt;br&gt;&lt;br&gt;V = Lanjutkan pilih rasa&lt;br&gt;X = Kembali&lt;br&gt;Y = Tambah Pesanan&amp;nbsp;&lt;br&gt;Z = Pembayaran&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#6D1F00;fillColor=#a0522d;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-850" y="-220" width="330" height="752" as="geometry" />
         </mxCell>
         <mxCell id="pl_Ivmxs4CeN9dgg81H_-14" value="q4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" parent="1" vertex="1">
           <mxGeometry y="660" width="80" height="80" as="geometry" />
@@ -318,9 +315,6 @@
             <mxPoint x="371.46000000000004" y="1525.5" as="sourcePoint" />
             <mxPoint x="851.46" y="1245.5" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="pl_Ivmxs4CeN9dgg81H_-63" value="Cetak Struk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1294.9999999999986" y="65" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pl_Ivmxs4CeN9dgg81H_-68" value="State Pilihan Rasa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="990" y="70" width="60" height="30" as="geometry" />
@@ -1267,18 +1261,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pl_Ivmxs4CeN9dgg81H_-252" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="pl_Ivmxs4CeN9dgg81H_-44" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1280" y="-20" as="sourcePoint" />
-            <mxPoint x="1150" y="-240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pl_Ivmxs4CeN9dgg81H_-253" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pl_Ivmxs4CeN9dgg81H_-45" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1280" y="60" as="sourcePoint" />
-            <mxPoint x="1150" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="TohrPLg42CqMJMddsjeN-1" value="q0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-440" y="-42" width="80" height="80" as="geometry" />
         </mxCell>
@@ -1331,9 +1313,6 @@
           <mxGeometry x="-0.0891" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="TohrPLg42CqMJMddsjeN-13" value="Input :&amp;nbsp;&lt;br&gt;a = Nasi Goreng&lt;br&gt;b = Mie&amp;nbsp;&lt;br&gt;c = Daging&lt;br&gt;d = Fuyung Hai&lt;br&gt;e = Sayur&lt;br&gt;&lt;br&gt;f =&amp;nbsp; Daging Ayam&lt;br&gt;g = Daging Sapi&amp;nbsp;&lt;br&gt;h = Daging Cumi&lt;br&gt;i = Daging Udang&lt;br&gt;&lt;br&gt;k = Toping Telur&lt;br&gt;l = Toping Ayam&lt;br&gt;m = Toping Udang&amp;nbsp;&lt;br&gt;n = Toping Sapi&lt;br&gt;&lt;br&gt;A= mie kuah&amp;nbsp;&lt;br&gt;B = mie goreng&amp;nbsp;&lt;br&gt;C = Kwetiau&lt;br&gt;D = Bihun&lt;br&gt;E = I Fu Mie&lt;br&gt;&lt;br&gt;F = Ayam Mentega&lt;br&gt;G = Ayam lada hitam&lt;br&gt;H = Chicken Katsu&amp;nbsp;&lt;br&gt;&lt;br&gt;I = Sapi Mentega&lt;br&gt;J = Sapi Lada Hitam&lt;br&gt;K = Sapi Cah Paprika&lt;br&gt;&lt;br&gt;L = Cumi Goreng Tepung&lt;br&gt;M = Cumi Mentega&lt;br&gt;N = Cumi Asam Manis&lt;br&gt;&lt;br&gt;O = Udang Goreng Tepung&lt;br&gt;P = Udang Mentega&lt;br&gt;Q = Udang Asam Manis&lt;br&gt;&lt;br&gt;R =&amp;nbsp; Sayur Hijau&lt;br&gt;S = Capcay&lt;br&gt;T =&amp;nbsp; Buncis&lt;br&gt;U = Kangkung&lt;br&gt;&lt;br&gt;y = Pedas&amp;nbsp;&lt;br&gt;z = Tidak Pedas&lt;br&gt;&lt;br&gt;V = Lanjutkan pilih rasa&lt;br&gt;X = Kembali&lt;br&gt;Y = Tambah Pesanan&amp;nbsp;&lt;br&gt;Z = Pembayaran&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#6D1F00;fillColor=#a0522d;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-850" y="-220" width="330" height="752" as="geometry" />
         </mxCell>
         <mxCell id="TohrPLg42CqMJMddsjeN-14" value="q4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" parent="1" vertex="1">
           <mxGeometry y="660" width="80" height="80" as="geometry" />
@@ -1590,9 +1569,6 @@
             <mxPoint x="371.46000000000004" y="1525.5" as="sourcePoint" />
             <mxPoint x="851.46" y="1245.5" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="TohrPLg42CqMJMddsjeN-63" value="Cetak Struk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1294.9999999999986" y="65" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TohrPLg42CqMJMddsjeN-68" value="State Pilihan Rasa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="990" y="70" width="60" height="30" as="geometry" />
@@ -2542,23 +2518,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TohrPLg42CqMJMddsjeN-252" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="TohrPLg42CqMJMddsjeN-44" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1280" y="-20" as="sourcePoint" />
-            <mxPoint x="1150" y="-240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TohrPLg42CqMJMddsjeN-253" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="TohrPLg42CqMJMddsjeN-45" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1280" y="60" as="sourcePoint" />
-            <mxPoint x="1150" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="TohrPLg42CqMJMddsjeN-254" value="q0&lt;br&gt;State memilih menu utama.&amp;nbsp;&lt;br&gt;1. Nasi Goreng&lt;br&gt;2. Mie&amp;nbsp;&lt;br&gt;3. Daging&lt;br&gt;4. Fuyung Hay&lt;br&gt;5. Sayur&amp;nbsp;&lt;br&gt;&lt;br&gt;q1&lt;br&gt;Satate memilih toping nasi goreng&lt;br&gt;&lt;br&gt;q2&lt;br&gt;state memilih jenis jenis mie (mie)&amp;nbsp;&lt;br&gt;&lt;br&gt;q3&lt;br&gt;State memilih jenis jenis daging&amp;nbsp;&lt;br&gt;&lt;br&gt;q4&lt;br&gt;satet UDAH milih fuyunghay, jadi ini state buat konfirmasi pesanan dan nanti diarahin ke state milih rasa pedas ata gak&amp;nbsp;&lt;br&gt;&lt;br&gt;q5&amp;nbsp;&lt;br&gt;state memilih jenis sayuran" style="text;html=1;strokeColor=#FFF2CC;fillColor=#FFF2CC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-820" y="-1570" width="240" height="370" as="geometry" />
+          <mxGeometry x="-1395" y="-1390" width="240" height="370" as="geometry" />
         </mxCell>
         <mxCell id="TohrPLg42CqMJMddsjeN-255" value="q6, q7, q8, q9&lt;br&gt;state memilih tambah toping atau enggak&lt;br&gt;&lt;br&gt;q10&lt;br&gt;state seteleh pilih tanpa toping, maka lanjutkan nanti diarahi ke state pilih pedas atau tidak yaitu state&amp;nbsp;&lt;br&gt;&lt;br&gt;q11, q12, q13, q14, q15&lt;br&gt;State untuk pilih toping, setelah memilih jenis mienya&lt;br&gt;&lt;br&gt;q16&lt;br&gt;state untuk memilih jenis makana ayam apa, ada 3 jenis menu ayam&lt;br&gt;&lt;br&gt;&amp;nbsp;q17&lt;br&gt;state memilih jenis makanan sapi apa, ada 3 jenis menu sapi&lt;br&gt;&lt;br&gt;q18&lt;br&gt;state memilih jenis makanan cumi, ada 3 jenis makanan cumi &lt;br&gt;&lt;br&gt;q19&lt;br&gt;state memilih jenis makanan udang, ada 3 jenis makanan udang&lt;br&gt;&lt;br&gt;q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30,q31&lt;br&gt;state untuk konfirmasi apakah yakin ingin memesan jenis makanan itu, lalu nanti akan diarahkan ke state pilih rasa pedas atau tidak.&amp;nbsp;&lt;br&gt;&lt;br&gt;q32, q33, q34, q35&lt;br&gt;state untuk memilih topik pada jenis sayur yang sudah dipilih ada 4 toping atau tidak memilih toping sama sekali.&amp;nbsp;&lt;br&gt;&lt;br&gt;q36&lt;br&gt;state untuk memilih rsa pedas atau tidak&amp;nbsp;&lt;br&gt;&lt;br&gt;q37, q38&lt;br&gt;state untuk konfirmasi apakah pilihan rasanya udah yakin, nanti diarahin ke state untuk cetak struk&amp;nbsp;" style="text;html=1;strokeColor=#FFF2CC;fillColor=#FFF2CC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-820" y="-1180" width="340" height="640" as="geometry" />
+          <mxGeometry x="-1410" y="-970" width="340" height="640" as="geometry" />
         </mxCell>
         <mxCell id="3BkZVlb4TjpQa4PNABO7-1" value="q0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-440" y="-42" width="80" height="80" as="geometry" />
@@ -2612,9 +2576,6 @@
           <mxGeometry x="-0.0891" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="3BkZVlb4TjpQa4PNABO7-13" value="Input :&amp;nbsp;&lt;br&gt;a = Nasi Goreng&lt;br&gt;b = Mie&amp;nbsp;&lt;br&gt;c = Daging&lt;br&gt;d = Fuyung Hai&lt;br&gt;e = Sayur&lt;br&gt;&lt;br&gt;f =&amp;nbsp; Daging Ayam&lt;br&gt;g = Daging Sapi&amp;nbsp;&lt;br&gt;h = Daging Cumi&lt;br&gt;i = Daging Udang&lt;br&gt;&lt;br&gt;j = Toping Telur&lt;br&gt;k = Toping Ayam&lt;br&gt;l = Toping Udang&amp;nbsp;&lt;br&gt;m = Toping Sapi&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;A= mie kuah&amp;nbsp;&lt;br&gt;B = mie goreng&amp;nbsp;&lt;br&gt;C = Kwetiau&lt;br&gt;D = Bihun&lt;br&gt;E = I Fu Mie&lt;br&gt;&lt;br&gt;F = Ayam Mentega&lt;br&gt;G = Ayam lada hitam&lt;br&gt;H = Chicken Katsu&amp;nbsp;&lt;br&gt;&lt;br&gt;I = Sapi Mentega&lt;br&gt;J = Sapi Lada Hitam&lt;br&gt;K = Sapi Cah Paprika&lt;br&gt;&lt;br&gt;L = Cumi Goreng Tepung&lt;br&gt;M = Cumi Mentega&lt;br&gt;N = Cumi Asam Manis&lt;br&gt;&lt;br&gt;O = Udang Goreng Tepung&lt;br&gt;P = Udang Mentega&lt;br&gt;Q = Udang Asam Manis&lt;br&gt;&lt;br&gt;R =&amp;nbsp; Sayur Hijau&lt;br&gt;S = Capcay&lt;br&gt;T =&amp;nbsp; Buncis&lt;br&gt;U = Kangkung&lt;br&gt;&lt;br&gt;y = ya&lt;br&gt;x = tidak&lt;br&gt;&lt;br&gt;V = Lanjutkan&lt;br&gt;X = Kembali&lt;br&gt;Y = Tambah Pesanan&amp;nbsp;&lt;br&gt;Z = Pembayaran&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;p = Tambah Makanan&lt;br&gt;q= Teh&amp;nbsp;&lt;br&gt;r = Jeruk&amp;nbsp;&lt;br&gt;s = Air Mineral&amp;nbsp;&lt;br&gt;t = Kopi&lt;br&gt;&lt;br&gt;u = es&lt;br&gt;v = Hangat / Biasa&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#6D1F00;fillColor=#a0522d;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-820" y="-213" width="330" height="1172" as="geometry" />
         </mxCell>
         <mxCell id="3BkZVlb4TjpQa4PNABO7-14" value="q4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" parent="1" vertex="1">
           <mxGeometry y="660" width="80" height="80" as="geometry" />
@@ -3833,10 +3794,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3BkZVlb4TjpQa4PNABO7-250" value="q0&lt;br&gt;State memilih menu utama.&amp;nbsp;&lt;br&gt;1. Nasi Goreng&lt;br&gt;2. Mie&amp;nbsp;&lt;br&gt;3. Daging&lt;br&gt;4. Fuyung Hay&lt;br&gt;5. Sayur&amp;nbsp;&lt;br&gt;&lt;br&gt;q1&lt;br&gt;Satate memilih toping nasi goreng&lt;br&gt;&lt;br&gt;q2&lt;br&gt;state memilih jenis jenis mie (mie)&amp;nbsp;&lt;br&gt;&lt;br&gt;q3&lt;br&gt;State memilih jenis jenis daging&amp;nbsp;&lt;br&gt;&lt;br&gt;q4&lt;br&gt;satet UDAH milih fuyunghay, jadi ini state buat konfirmasi pesanan dan nanti diarahin ke state milih rasa pedas ata gak&amp;nbsp;&lt;br&gt;&lt;br&gt;q5&amp;nbsp;&lt;br&gt;state memilih jenis sayuran" style="text;html=1;strokeColor=#FFF2CC;fillColor=#FFF2CC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-820" y="-1570" width="240" height="370" as="geometry" />
+          <mxGeometry x="-1395" y="-1400" width="240" height="370" as="geometry" />
         </mxCell>
         <mxCell id="3BkZVlb4TjpQa4PNABO7-251" value="q6, q7, q8, q9&lt;br&gt;state memilih tambah toping atau enggak&lt;br&gt;&lt;br&gt;q10&lt;br&gt;state seteleh pilih tanpa toping, maka lanjutkan nanti diarahi ke state pilih pedas atau tidak yaitu state&amp;nbsp;&lt;br&gt;&lt;br&gt;q11, q12, q13, q14, q15&lt;br&gt;State untuk pilih toping, setelah memilih jenis mienya&lt;br&gt;&lt;br&gt;q16&lt;br&gt;state untuk memilih jenis makana ayam apa, ada 3 jenis menu ayam&lt;br&gt;&lt;br&gt;&amp;nbsp;q17&lt;br&gt;state memilih jenis makanan sapi apa, ada 3 jenis menu sapi&lt;br&gt;&lt;br&gt;q18&lt;br&gt;state memilih jenis makanan cumi, ada 3 jenis makanan cumi &lt;br&gt;&lt;br&gt;q19&lt;br&gt;state memilih jenis makanan udang, ada 3 jenis makanan udang&lt;br&gt;&lt;br&gt;q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30,q31&lt;br&gt;state untuk konfirmasi apakah yakin ingin memesan jenis makanan itu, lalu nanti akan diarahkan ke state pilih rasa pedas atau tidak.&amp;nbsp;&lt;br&gt;&lt;br&gt;q32, q33, q34, q35&lt;br&gt;state untuk memilih topik pada jenis sayur yang sudah dipilih ada 4 toping atau tidak memilih toping sama sekali.&amp;nbsp;&lt;br&gt;&lt;br&gt;q36&lt;br&gt;state untuk memilih rsa pedas atau tidak&amp;nbsp;&lt;br&gt;&lt;br&gt;q37, q38&lt;br&gt;state untuk konfirmasi apakah pilihan rasanya udah yakin, nanti diarahin ke state untuk cetak struk&amp;nbsp;" style="text;html=1;strokeColor=#FFF2CC;fillColor=#FFF2CC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-820" y="-1180" width="340" height="640" as="geometry" />
+          <mxGeometry x="-1410" y="-965" width="340" height="640" as="geometry" />
         </mxCell>
         <mxCell id="3BkZVlb4TjpQa4PNABO7-252" value="q39" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2859.9999999999986" y="-760" width="100" height="90" as="geometry" />
@@ -4107,8 +4068,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="29StmOtlIFzOtzOnlXkl-13" value="Input :&amp;nbsp;&lt;br&gt;a = Nasi Goreng&lt;br&gt;b = Mie&amp;nbsp;&lt;br&gt;c = Daging&lt;br&gt;d = Fuyung Hai&lt;br&gt;e = Sayur&lt;br&gt;&lt;br&gt;f =&amp;nbsp; Daging Ayam&lt;br&gt;g = Daging Sapi&amp;nbsp;&lt;br&gt;h = Daging Cumi&lt;br&gt;i = Daging Udang&lt;br&gt;&lt;br&gt;k = Toping Telur&lt;br&gt;l = Toping Ayam&lt;br&gt;m = Toping Udang&amp;nbsp;&lt;br&gt;n = Toping Sapi&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;A= mie kuah&amp;nbsp;&lt;br&gt;B = mie goreng&amp;nbsp;&lt;br&gt;C = Kwetiau&lt;br&gt;D = Bihun&lt;br&gt;E = I Fu Mie&lt;br&gt;&lt;br&gt;F = Ayam Mentega&lt;br&gt;G = Ayam lada hitam&lt;br&gt;H = Chicken Katsu&amp;nbsp;&lt;br&gt;&lt;br&gt;I = Sapi Mentega&lt;br&gt;J = Sapi Lada Hitam&lt;br&gt;K = Sapi Cah Paprika&lt;br&gt;&lt;br&gt;L = Cumi Goreng Tepung&lt;br&gt;M = Cumi Mentega&lt;br&gt;N = Cumi Asam Manis&lt;br&gt;&lt;br&gt;O = Udang Goreng Tepung&lt;br&gt;P = Udang Mentega&lt;br&gt;Q = Udang Asam Manis&lt;br&gt;&lt;br&gt;R =&amp;nbsp; Sayur Hijau&lt;br&gt;S = Capcay&lt;br&gt;T =&amp;nbsp; Buncis&lt;br&gt;U = Kangkung&lt;br&gt;&lt;br&gt;y = ya&lt;br&gt;x = tidak&lt;br&gt;&lt;br&gt;V = Lanjutkan&lt;br&gt;X = Kembali&lt;br&gt;Y = Tambah Pesanan&amp;nbsp;&lt;br&gt;Z = Pembayaran&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;p = Tambah Makanan&lt;br&gt;q= Teh&amp;nbsp;&lt;br&gt;r = Jeruk&amp;nbsp;&lt;br&gt;s = Air Mineral&amp;nbsp;&lt;br&gt;t = Kopi&lt;br&gt;&lt;br&gt;u = es&lt;br&gt;v = Hangat / Biasa&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#6D1F00;fillColor=#a0522d;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-810" y="-392" width="330" height="1172" as="geometry" />
+        <mxCell id="29StmOtlIFzOtzOnlXkl-13" value="&lt;div&gt;Keterangan:&lt;/div&gt;&lt;div&gt;Input :&amp;nbsp;&lt;/div&gt;&lt;div&gt;a = Nasi Goreng&lt;/div&gt;&lt;div&gt;b = Mie&amp;nbsp;&lt;/div&gt;&lt;div&gt;c = Daging&lt;/div&gt;&lt;div&gt;d = Fuyung Hai&lt;/div&gt;&lt;div&gt;e = Sayur&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;f =&amp;nbsp; Daging Ayam&lt;/div&gt;&lt;div&gt;g = Daging Sapi&amp;nbsp;&lt;/div&gt;&lt;div&gt;h = Daging Cumi&lt;/div&gt;&lt;div&gt;i = Daging Udang&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;j = Toping Telur&lt;/div&gt;&lt;div&gt;k = Toping Ayam&lt;/div&gt;&lt;div&gt;l = Toping Udang&amp;nbsp;&lt;/div&gt;&lt;div&gt;m = Toping Sapi&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;q= Teh&amp;nbsp;&lt;/div&gt;&lt;div&gt;r = Jeruk&amp;nbsp;&lt;/div&gt;&lt;div&gt;s = Air Mineral&amp;nbsp;&lt;/div&gt;&lt;div&gt;t = Kopi&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;y = ya&lt;/div&gt;&lt;div&gt;x = tidak&lt;/div&gt;&lt;div&gt;z = simpan minuman&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A= mie kuah&amp;nbsp;&lt;/div&gt;&lt;div&gt;B = mie goreng&amp;nbsp;&lt;/div&gt;&lt;div&gt;C = Kwetiau&lt;/div&gt;&lt;div&gt;D = Bihun&lt;/div&gt;&lt;div&gt;E = I Fu Mie&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;F = Ayam Mentega&lt;/div&gt;&lt;div&gt;G = Ayam lada hitam&lt;/div&gt;&lt;div&gt;H = Chicken Katsu&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;I = Sapi Mentega&lt;/div&gt;&lt;div&gt;J = Sapi Lada Hitam&lt;/div&gt;&lt;div&gt;K = Sapi Cah Paprika&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;L = Cumi Goreng Tepung&lt;/div&gt;&lt;div&gt;M = Cumi Mentega&lt;/div&gt;&lt;div&gt;N = Cumi Asam Manis&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;O = Udang Goreng Tepung&lt;/div&gt;&lt;div&gt;P = Udang Mentega&lt;/div&gt;&lt;div&gt;Q = Udang Asam Manis&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;R =&amp;nbsp; Sayur Hijau&lt;/div&gt;&lt;div&gt;S = Capcay&lt;/div&gt;&lt;div&gt;T =&amp;nbsp; Buncis&lt;/div&gt;&lt;div&gt;U = Kangkung&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;V = Lanjutkan&lt;/div&gt;&lt;div&gt;U = Tambah Minuman&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Y = Tambah Pesanan&amp;nbsp;&lt;/div&gt;&lt;div&gt;Z = Cetak Struk&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#6D1F00;fillColor=#a0522d;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-850" y="-262" width="330" height="1172" as="geometry" />
         </mxCell>
         <mxCell id="29StmOtlIFzOtzOnlXkl-14" value="q4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" parent="1" vertex="1">
           <mxGeometry y="660" width="80" height="80" as="geometry" />
@@ -4364,7 +4325,7 @@
         <mxCell id="29StmOtlIFzOtzOnlXkl-62" value="Cetak Struk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2879.9999999999986" y="-660" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="29StmOtlIFzOtzOnlXkl-63" value="&lt;span style=&quot;&quot;&gt;&lt;b&gt;0&lt;/b&gt;&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.444;entryDx=0;entryDy=0;strokeWidth=3;entryPerimeter=0;fontStyle=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="29StmOtlIFzOtzOnlXkl-44" edge="1">
+        <mxCell id="29StmOtlIFzOtzOnlXkl-63" value="&lt;span style=&quot;&quot;&gt;&lt;b&gt;V&lt;/b&gt;&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.444;entryDx=0;entryDy=0;strokeWidth=3;entryPerimeter=0;fontStyle=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="29StmOtlIFzOtzOnlXkl-44" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1336.0199999999986" y="-50" as="sourcePoint" />
             <mxPoint x="2039.999999999999" y="29.960000000000036" as="targetPoint" />
@@ -4376,7 +4337,7 @@
             <mxPoint x="2040.0000000000164" y="35" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="29StmOtlIFzOtzOnlXkl-65" value="&lt;b&gt;0&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="29StmOtlIFzOtzOnlXkl-64" vertex="1" connectable="0">
+        <mxCell id="29StmOtlIFzOtzOnlXkl-65" value="&lt;b&gt;V&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="29StmOtlIFzOtzOnlXkl-64" vertex="1" connectable="0">
           <mxGeometry x="0.011" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -5327,10 +5288,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="29StmOtlIFzOtzOnlXkl-250" value="q0&lt;br&gt;State memilih menu utama.&amp;nbsp;&lt;br&gt;1. Nasi Goreng&lt;br&gt;2. Mie&amp;nbsp;&lt;br&gt;3. Daging&lt;br&gt;4. Fuyung Hay&lt;br&gt;5. Sayur&amp;nbsp;&lt;br&gt;&lt;br&gt;q1&lt;br&gt;Satate memilih toping nasi goreng&lt;br&gt;&lt;br&gt;q2&lt;br&gt;state memilih jenis jenis mie (mie)&amp;nbsp;&lt;br&gt;&lt;br&gt;q3&lt;br&gt;State memilih jenis jenis daging&amp;nbsp;&lt;br&gt;&lt;br&gt;q4&lt;br&gt;satet UDAH milih fuyunghay, jadi ini state buat konfirmasi pesanan dan nanti diarahin ke state milih rasa pedas ata gak&amp;nbsp;&lt;br&gt;&lt;br&gt;q5&amp;nbsp;&lt;br&gt;state memilih jenis sayuran" style="text;html=1;strokeColor=#FFF2CC;fillColor=#FFF2CC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-820" y="-1570" width="240" height="370" as="geometry" />
+          <mxGeometry x="-850" y="-1330" width="240" height="370" as="geometry" />
         </mxCell>
         <mxCell id="29StmOtlIFzOtzOnlXkl-251" value="q6, q7, q8, q9&lt;br&gt;state memilih tambah toping atau enggak&lt;br&gt;&lt;br&gt;q10&lt;br&gt;state seteleh pilih tanpa toping, maka lanjutkan nanti diarahi ke state pilih pedas atau tidak yaitu state&amp;nbsp;&lt;br&gt;&lt;br&gt;q11, q12, q13, q14, q15&lt;br&gt;State untuk pilih toping, setelah memilih jenis mienya&lt;br&gt;&lt;br&gt;q16&lt;br&gt;state untuk memilih jenis makana ayam apa, ada 3 jenis menu ayam&lt;br&gt;&lt;br&gt;&amp;nbsp;q17&lt;br&gt;state memilih jenis makanan sapi apa, ada 3 jenis menu sapi&lt;br&gt;&lt;br&gt;q18&lt;br&gt;state memilih jenis makanan cumi, ada 3 jenis makanan cumi &lt;br&gt;&lt;br&gt;q19&lt;br&gt;state memilih jenis makanan udang, ada 3 jenis makanan udang&lt;br&gt;&lt;br&gt;q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30,q31&lt;br&gt;state untuk konfirmasi apakah yakin ingin memesan jenis makanan itu, lalu nanti akan diarahkan ke state pilih rasa pedas atau tidak.&amp;nbsp;&lt;br&gt;&lt;br&gt;q32, q33, q34, q35&lt;br&gt;state untuk memilih topik pada jenis sayur yang sudah dipilih ada 4 toping atau tidak memilih toping sama sekali.&amp;nbsp;&lt;br&gt;&lt;br&gt;q36&lt;br&gt;state untuk memilih rsa pedas atau tidak&amp;nbsp;&lt;br&gt;&lt;br&gt;q37, q38&lt;br&gt;state untuk konfirmasi apakah pilihan rasanya udah yakin, nanti diarahin ke state untuk cetak struk&amp;nbsp;" style="text;html=1;strokeColor=#FFF2CC;fillColor=#FFF2CC;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-820" y="-1180" width="340" height="640" as="geometry" />
+          <mxGeometry x="-855" y="-940" width="340" height="640" as="geometry" />
         </mxCell>
         <mxCell id="29StmOtlIFzOtzOnlXkl-252" value="q39" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2859.9999999999986" y="-760" width="100" height="90" as="geometry" />
@@ -5362,7 +5323,7 @@
             <mxPoint x="2320" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="29StmOtlIFzOtzOnlXkl-258" value="V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" parent="29StmOtlIFzOtzOnlXkl-257" vertex="1" connectable="0">
+        <mxCell id="29StmOtlIFzOtzOnlXkl-258" value="U" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" parent="29StmOtlIFzOtzOnlXkl-257" vertex="1" connectable="0">
           <mxGeometry x="-0.0574" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
