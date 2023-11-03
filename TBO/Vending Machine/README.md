@@ -14,6 +14,7 @@ py -m venv venv
 venv\Scripts\Activate
 pip install -r requirements.txt
 ```
+- Install fonts
 - Run landing.py
 ```bash
 python landing.py
